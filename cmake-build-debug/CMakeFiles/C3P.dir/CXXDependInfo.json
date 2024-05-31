@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "F:/C++/C3P/cmake-build-debug",
+	"dir-cur-src" : "F:/C++/C3P",
+	"dir-top-bld" : "F:/C++/C3P/cmake-build-debug",
+	"dir-top-src" : "F:/C++/C3P",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "F:/C++/C3P/cmake-build-debug/CMakeFiles/C3P.dir"
+}
