@@ -3,4 +3,5 @@ project(C3P)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(C3P main.cpp)
+add_executable(C3P
+        Code/02.01.03.cpp)

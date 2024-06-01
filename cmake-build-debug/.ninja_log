@@ -1,0 +1,19 @@
+# ninja log v5
+1	72	7389343312056547	build.ninja	e099bb99f17eb44c
+220	286	7389343199741522	F:/C++/C3P/cmake-build-debug/CMakeFiles/C3P.dir/CXXModules.json	a33dd862d204d4fa
+658	878	7389319943060055	C3P.exe	9f1b9320a44b4a60
+1	91	7388864309701914	CMakeFiles/C3P.dir/Code/main.cpp.obj.ddi	ec06a47dbf9c06b2
+91	134	7388864310142494	CMakeFiles/C3P.dir/Code/main.cpp.obj.modmap	9b1ac2e207ef77e4
+220	286	7389343199741522	CMakeFiles/C3P.dir/Code/02.01.02.cpp.obj.modmap	a33dd862d204d4fa
+220	286	7389343199741522	CMakeFiles/C3P.dir/CXX.dd	a33dd862d204d4fa
+135	688	7388864315661363	CMakeFiles/C3P.dir/Code/main.cpp.obj	7b630ecf4526aed2
+1	100	7389319936046846	CMakeFiles/C3P.dir/Code/02.01.02.cpp.obj.ddi	b5d757fa9e61529c
+170	658	7389319941620674	CMakeFiles/C3P.dir/Code/02.01.02.cpp.obj	c7ccdd37a4371b83
+1	220	7389343197917887	CMakeFiles/C3P.dir/Code/02.01.03.cpp.obj.ddi	15a7bdfb8639f323
+220	286	7389343199741522	CMakeFiles/C3P.dir/Code/02.01.03.cpp.obj.modmap	a33dd862d204d4fa
+286	1073	7389343207604393	CMakeFiles/C3P.dir/Code/02.01.03.cpp.obj	8afb8cf6434e072e
+1	106	7389343312056547	build.ninja	e099bb99f17eb44c
+1	67	7389343312867420	CMakeFiles/C3P.dir/CXX.dd	cc28e1332ffe90a5
+1	67	7389343312867420	F:/C++/C3P/cmake-build-debug/CMakeFiles/C3P.dir/CXXModules.json	cc28e1332ffe90a5
+1	67	7389343312867420	CMakeFiles/C3P.dir/Code/02.01.03.cpp.obj.modmap	cc28e1332ffe90a5
+67	283	7389343314338226	C3P.exe	82e36d806c85128d

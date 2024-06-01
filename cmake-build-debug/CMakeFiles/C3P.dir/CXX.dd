@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\C3P.dir\Code\02.01.03.cpp.obj: dyndep
+
