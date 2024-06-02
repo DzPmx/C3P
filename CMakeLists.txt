@@ -4,5 +4,6 @@ project(C3P)
 set(CMAKE_CXX_STANDARD 26)
 
 add_executable(C3P
-        Code/02.05.03.cpp
-        Code/02.06.01.cpp)
+        Code/02.06.02.cpp
+        Code/SalesData.cpp
+        Code/SalesData.h)
