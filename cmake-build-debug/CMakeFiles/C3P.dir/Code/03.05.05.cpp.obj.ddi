@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\C3P.dir\\Code\\03.05.05.cpp.obj",
+            "outputs": [
+                "F:\\C++\\C3P\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\C3P.dir\\Code\\03.05.05.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
