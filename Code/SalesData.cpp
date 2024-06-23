@@ -2,9 +2,6 @@
 // Created by Dz on 24-6-3.
 #include "SalesData.h"
 
-SalesData::SalesData(std::istream &is) {
-    Read(is, *this);
-}
 
 inline double SalesData::Average_Price() const {
     if (sold)

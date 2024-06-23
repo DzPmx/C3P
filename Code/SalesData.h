@@ -21,10 +21,13 @@ private:
     [[nodiscard]] inline double Average_Price() const;
 
 public:
-    SalesData() = default;
-    SalesData(const std::string &str) : bookNo(str){};
-    SalesData(const std::string &str, const unsigned i, double p) : bookNo(str), sold(i), revenue(p * i){};
-    SalesData(std::istream &is);
+    // SalesData(const std::string &str=" ") : bookNo(str){};
+    // SalesData(const std::string &str, const unsigned i, double p) : bookNo(str), sold(i), revenue(p * i){};
+    // SalesData() : SalesData(" ", 0, 0){};
+    // SalesData(std::istream &is) : SalesData() { Read(is, *this); }
+    explicit SalesData(const std::string &str, const unsigned i, double p) : bookNo(str), sold(i), revenue(p * i) { std::cout << "Blank Construct" << std::endl; }
+    explicit SalesData() : SalesData(" ", 0, 0) {}
+    explicit SalesData(std::istream &is) : SalesData() { Read(is, *this); }
     [[nodiscard]] std::string isbn() const { return bookNo; }
     SalesData &combine(const SalesData &);
 };
