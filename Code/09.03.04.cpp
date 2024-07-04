@@ -8,14 +8,14 @@
 void insertForwardList(std::forward_list<std::string> &flist, const std::string &a, const std::string &b) {
     auto pre = flist.before_begin();
     auto curr = flist.begin();
-    const auto end = flist.end();
     bool isFind = false;
-    while (curr != end) {
+    while (curr != flist.end()) {
         if (*curr == a) {
             curr = flist.insert_after(curr, b);
             isFind = true;
             pre = curr;
             ++curr;
+           // end = flist.end();
         } else {
             pre = curr;
             ++curr;
@@ -45,7 +45,7 @@ int main() {
     // }
 
     //2
-    std::forward_list<std::string> flist{"1", "3", "5", "7","5"};
+    std::forward_list<std::string> flist{"1", "3", "5", "7"};
     insertForwardList(flist, "5", "dzpmx");
     for (const auto &basic_string: flist) {
         std::cout << basic_string << std::ends;
