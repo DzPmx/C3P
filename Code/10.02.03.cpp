@@ -27,7 +27,8 @@ int main() {
     // }
 
     std::vector<std::string> vec{"dzpmx", "yudong", "leseline", "lee", "view", "aim", "vulcan"};
-    auto i = std::partition(vec.begin(), vec.end(), DoPartition);
+    int part=6;
+    auto i = std::partition(vec.begin(), vec.end(), [part](const std::string &str){return str.size()<part;});
     while (i != vec.end()) {
         std::cout << *i << std::ends;
         ++i;
